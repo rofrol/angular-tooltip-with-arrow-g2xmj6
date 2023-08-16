@@ -1,0 +1,15 @@
+/* Add application styles & imports to this file! */
+
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+* {
+  font-family: lato;
+  box-sizing: border-box;
+}
+
+.tooltip {
+  border-bottom: dotted 1px gray;
+  padding-top: 1rem;
+  margin-top: -1rem;
+  padding-bottom: .1rem;
+}
